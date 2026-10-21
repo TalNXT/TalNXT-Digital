@@ -1,0 +1,63 @@
+/* =========================================================
+   TalNXT design tokens  (shared by TalNXT, TalNXT Digital and any sister site)
+   Change brand values HERE only. Everything else reads these variables.
+   ========================================================= */
+:root {
+  /* ---- colour: neutrals ---- */
+  --bg: #f1f6fd;            /* page background */
+  --surface: #ffffff;       /* cards, nav, footer, modals */
+  --tint-pale: #f4f8fc;     /* subtle panels, hover rows */
+  --ink: #142746;           /* headings, primary text */
+  --text: #33445d;          /* body copy */
+  --muted: #58657a;         /* secondary text */
+  --line: #d9e2ee;          /* borders, dividers */
+  --navy: #142746;          /* dark bands */
+  --navy-deep: #0a1224;     /* footer-dark, overlays */
+  --navy-band: #243251;     /* "what sets us apart" band */
+
+  /* ---- colour: brand ---- */
+  --accent: #2162c5;        /* primary action / links */
+  --accent-dark: #164a9a;   /* hover, deep text on tint */
+  --accent-tint: #e6eefb;   /* icon badges, active rows, tinted panels */
+  --accent-on-dark: #7fb0f5;/* eyebrow / links on navy */
+  --spark: #10a6b8;         /* TalNXT Digital signature accent (teal). Parent site may omit. */
+  --spark-tint: #e0f4f6;
+
+  /* ---- colour: capability tones (icon badges, tags, chart series) ---- */
+  --build: #2162c5;     --build-tint: #e4eaf6;
+  --scale: #2f8f5b;     --scale-tint: #e5f2ea;
+  --transform-c: #7857b0; --transform-tint: #eee8fa;
+  --advise: #b8862f;    --advise-tint: #f6efe0;
+
+  /* ---- colour: status ---- */
+  --success: #3d7c63;   --success-tint: #ebf3ef;
+  --warning: #b8862f;   --warning-tint: #f6efe0;
+  --danger: #b3574a;    --danger-tint: #f5ece9;
+
+  /* ---- typography ---- */
+  --font-display: 'Newsreader', Georgia, serif;                       /* headings, big numbers */
+  --font-body: 'IBM Plex Sans', -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-script: 'Caveat', cursive;                                   /* rare handwritten accent */
+  --fs-eyebrow: 11px;  --fs-small: 13px;  --fs-body: 15px;  --fs-lead: 17px;
+  --fs-h3: 17px;  --fs-h2: clamp(20px, 1.2vw + 16px, 24px);  --fs-h1: clamp(26px, 2.2vw + 16px, 34px);
+
+  /* ---- space (4px base) ---- */
+  --sp-1: 4px;  --sp-2: 8px;  --sp-3: 12px;  --sp-4: 16px;  --sp-5: 24px;  --sp-6: 32px;  --sp-7: 48px;  --sp-8: 64px;
+
+  /* ---- layout ---- */
+  --container: 1200px;
+  --gutter: 56px;          /* container side padding; shrinks via base.css breakpoints */
+  --nav-h: 101px;
+
+  /* ---- shape ---- */
+  --r-btn: 4px;  --r-input: 8px;  --r-card: 10px;  --r-panel: 12px;  --r-modal: 14px;  --r-pill: 999px;
+
+  /* ---- elevation ---- */
+  --shadow-sm: 0 2px 8px rgba(20, 32, 58, .06);
+  --shadow-md: 0 12px 28px rgba(20, 32, 58, .12);      /* dropdowns, hover cards */
+  --shadow-lg: 0 14px 34px rgba(20, 30, 60, .10);      /* floating search bars */
+  --shadow-xl: 0 30px 60px rgba(10, 18, 36, .30);      /* modals */
+
+  /* ---- layers ---- */
+  --z-nav: 100;  --z-drawer: 150;  --z-dropdown: 200;  --z-modal: 300;  --z-toast: 400;  --z-cookie: 500;
+}
